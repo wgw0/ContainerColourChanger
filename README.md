@@ -18,8 +18,6 @@ A Chrome extension that adds alternating background colors to Google Tag Manager
 
 Click the **"Code"** button → **"Download ZIP"**
 
-[![Download](https://img.shields.io/badge/Download-Chrome%20Extension-blue?style=for-the-badge&logo=google-chrome)](../../archive/main.zip)
-
 ### 2. Extract the Files
 - Unzip the downloaded file
 - You should see a folder called `gtm-account-highlighter-main` or similar

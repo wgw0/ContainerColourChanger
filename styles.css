@@ -1,0 +1,65 @@
+/* GTM Account Color Highlighter Styles */
+
+.gtm-account-color-0 {
+  background-color: #f0f9ff !important; /* Light blue */
+  border-left: 4px solid #0ea5e9 !important;
+}
+
+.gtm-account-color-1 {
+  background-color: #fefce8 !important; /* Light yellow */
+  border-left: 4px solid #eab308 !important;
+}
+
+.gtm-account-color-2 {
+  background-color: #f0fdf4 !important; /* Light green */
+  border-left: 4px solid #22c55e !important;
+}
+
+.gtm-account-color-3 {
+  background-color: #fdf2f8 !important; /* Light pink */
+  border-left: 4px solid #ec4899 !important;
+}
+
+.gtm-account-color-4 {
+  background-color: #f5f3ff !important; /* Light purple */
+  border-left: 4px solid #8b5cf6 !important;
+}
+
+.gtm-account-color-5 {
+  background-color: #fff7ed !important; /* Light orange */
+  border-left: 4px solid #f97316 !important;
+}
+
+.gtm-account-color-6 {
+  background-color: #ecfdf5 !important; /* Light teal */
+  border-left: 4px solid #10b981 !important;
+}
+
+.gtm-account-color-7 {
+  background-color: #fef3c7 !important; /* Light amber */
+  border-left: 4px solid #f59e0b !important;
+}
+
+/* Ensure the colors are applied with high specificity */
+div[data-gtm-card].account.card.gtm-account-color-0,
+div[data-gtm-card].account.card.gtm-account-color-1,
+div[data-gtm-card].account.card.gtm-account-color-2,
+div[data-gtm-card].account.card.gtm-account-color-3,
+div[data-gtm-card].account.card.gtm-account-color-4,
+div[data-gtm-card].account.card.gtm-account-color-5,
+div[data-gtm-card].account.card.gtm-account-color-6,
+div[data-gtm-card].account.card.gtm-account-color-7 {
+  transition: background-color 0.2s ease !important;
+  margin-bottom: 2px !important;
+  border-radius: 4px !important;
+}
+
+/* Ensure table content remains readable */
+div[data-gtm-card].account.card .gtm-table {
+  background-color: transparent !important;
+}
+
+div[data-gtm-card].account.card .gtm-table td,
+div[data-gtm-card].account.card .gtm-table th {
+  background-color: transparent !important;
+}

@@ -14,6 +14,10 @@ A Chrome extension that adds alternating background colors to Google Tag Manager
 
 ## Step-by-Step Installation
 
+https://docs.google.com/document/d/1oIK5W5PwNx664EPhQ4FoOCWdlSReKswLNLy5VxGdJ7o/edit?usp=sharing
+
+OR:
+
 ### 1. Download the Extension
 
 Click the **"Code"** button → **"Download ZIP"**

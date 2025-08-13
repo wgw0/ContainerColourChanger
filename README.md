@@ -10,40 +10,52 @@ A Chrome extension that adds alternating background colors to Google Tag Manager
 - Works with dynamic content loading (SPA navigation)
 - Maintains readability of account and container information
 
-## File Structure
+# 🚀 Quick Installation Guide
 
-```
-gtm-account-highlighter/
-├── manifest.json          # Extension configuration
-├── content.js            # Main script that applies colors
-├── styles.css           # CSS styles for the color scheme
-├── README.md            # This file
-└── icons/               # Extension icons (optional)
-    ├── icon16.png
-    ├── icon32.png
-    ├── icon48.png
-    └── icon128.png
-```
+## Step-by-Step Installation
 
-## Installation
+### 1. Download the Extension
 
-### For Development/Testing:
+Click the **"Code"** button → **"Download ZIP"**
 
-1. Download all the files and create the folder structure as shown above
-2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
-4. Click "Load unpacked" and select the extension folder
-5. Navigate to Google Tag Manager to see the colors applied
+[![Download](https://img.shields.io/badge/Download-Chrome%20Extension-blue?style=for-the-badge&logo=google-chrome)](../../archive/main.zip)
 
-### Creating Icons (Optional):
+### 2. Extract the Files
+- Unzip the downloaded file
+- You should see a folder called `gtm-account-highlighter-main` or similar
 
-Create PNG icons in the `icons/` folder with the following sizes:
-- `icon16.png` - 16x16 pixels
-- `icon32.png` - 32x32 pixels  
-- `icon48.png` - 48x48 pixels
-- `icon128.png` - 128x128 pixels
+### 3. Open Chrome Extensions
+- Type `chrome://extensions/` in your address bar
+- Or go to Chrome Menu → More Tools → Extensions
 
-You can use any simple icon design, such as a colorful folder or tag symbol.
+### 4. Enable Developer Mode
+
+Toggle **"Developer mode"** in the top right corner
+
+### 5. Load the Extension
+
+- Click **"Load unpacked"**
+- Select the extracted `gtm-account-highlighter` folder
+- Click **"Select Folder"**
+
+### 6. Success! 🎉
+The extension is now installed and active. Visit Google Tag Manager to see the colorful account cards!
+
+---
+
+## Troubleshooting
+
+**Extension doesn't appear?**
+- Make sure you selected the folder containing `manifest.json`
+- Check that Developer mode is enabled
+
+**Colors not showing?**
+- Refresh the Google Tag Manager page
+- Make sure you're on the accounts overview page
+
+**Need help?**
+- [Create an issue](../../issues) on GitHub
+- Check our [FAQ section](../../wiki/FAQ)
 
 ### Icon Attribution
 
@@ -59,7 +71,7 @@ Attribution link: https://www.flaticon.com/free-icons/paintbrush
 
 ## Color Scheme
 
-The extension uses 8 subtle background colors:
+The extension uses 8 subtle background colors that loop:
 - Light blue with blue border
 - Light yellow with yellow border
 - Light green with green border

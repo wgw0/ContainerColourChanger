@@ -50,8 +50,12 @@ div[data-gtm-card].account.card.gtm-account-color-5,
 div[data-gtm-card].account.card.gtm-account-color-6,
 div[data-gtm-card].account.card.gtm-account-color-7 {
   transition: background-color 0.2s ease !important;
-  margin-bottom: 2px !important;
   border-radius: 4px !important;
+}
+
+/* Restore proper spacing between account cards */
+div[data-gtm-card].account.card {
+  margin-bottom: 14px !important;
 }
 
 /* Ensure table content remains readable */

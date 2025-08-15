@@ -1,11 +1,9 @@
 {
   "manifest_version": 3,
   "name": "GTM Account Color Highlighter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adds alternating background colors to Google Tag Manager account cards for easier identification",
-  "permissions": [
-    "activeTab"
-  ],
+  "permissions": [],
   "content_scripts": [
     {
       "matches": [

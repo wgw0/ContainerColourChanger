@@ -2,6 +2,11 @@
 
 A Chrome extension that adds alternating background colors to Google Tag Manager account cards, making it easier to distinguish between different accounts.
 
+### Icon Attribution
+
+The extension uses paintbrush icons created by Smashicons - Flaticon. 
+Attribution link: https://www.flaticon.com/free-icons/paintbrush
+
 ## Features
 
 - Automatically applies different background colors to each GTM account card
@@ -10,46 +15,7 @@ A Chrome extension that adds alternating background colors to Google Tag Manager
 - Works with dynamic content loading (SPA navigation)
 - Maintains readability of account and container information
 
-# 🚀 Quick Installation Guide
-
-## Step-by-Step Installation
-
-https://docs.google.com/document/d/1oIK5W5PwNx664EPhQ4FoOCWdlSReKswLNLy5VxGdJ7o/edit?usp=sharing
-
-OR:
-
-### 1. Download the Extension
-
-Click the **"Code"** button → **"Download ZIP"**
-
-### 2. Extract the Files
-- Unzip the downloaded file
-- You should see a folder called `gtm-account-highlighter-main` or similar
-
-### 3. Open Chrome Extensions
-- Type `chrome://extensions/` in your address bar
-- Or go to Chrome Menu → More Tools → Extensions
-
-### 4. Enable Developer Mode
-
-Toggle **"Developer mode"** in the top right corner
-
-### 5. Load the Extension
-
-- Click **"Load unpacked"**
-- Select the extracted `gtm-account-highlighter` folder
-- Click **"Select Folder"**
-
-### 6. Success! 🎉
-The extension is now installed and active. Visit Google Tag Manager to see the colorful account cards!
-
----
-
 ## Troubleshooting
-
-**Extension doesn't appear?**
-- Make sure you selected the folder containing `manifest.json`
-- Check that Developer mode is enabled
 
 **Colors not showing?**
 - Refresh the Google Tag Manager page
@@ -57,12 +23,6 @@ The extension is now installed and active. Visit Google Tag Manager to see the c
 
 **Need help?**
 - [Create an issue](../../issues) on GitHub
-- Check our [FAQ section](../../wiki/FAQ)
-
-### Icon Attribution
-
-The extension uses paintbrush icons created by Smashicons - Flaticon. 
-Attribution link: https://www.flaticon.com/free-icons/paintbrush
 
 ## How It Works
 
@@ -82,11 +42,6 @@ The extension uses 8 subtle background colors that loop:
 - Light orange with orange border
 - Light teal with teal border
 - Light amber with amber border
-
-## Permissions
-
-The extension only requires:
-- `activeTab` - To access the current Google Tag Manager tab
 
 ## Compatibility
 

@@ -1,5 +1,7 @@
 # GTM Account Color Highlighter
 
+On Google Chrome Extension Store now!: https://chromewebstore.google.com/detail/gtm-account-color-highlig/iohhhbcgakcgdccooggnimoahfnlhebp
+
 A Chrome extension that adds alternating background colors to Google Tag Manager account cards, making it easier to distinguish between different accounts.
 
 ### Icon Attribution
